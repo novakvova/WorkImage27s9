@@ -147,6 +147,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\WorkImage.cs" />
     <Compile Include="Models\GalleryViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -162,6 +163,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -173,6 +175,10 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Upload\ImageGallery\25aeb32d-4520-40c5-93ed-9abf6aec3122.jpg" />
+    <Content Include="Upload\ImageGallery\94416fe3-e45b-4bda-a792-b2fea52af69e.jpg" />
+    <Content Include="Upload\ImageGallery\9a5938c8-c162-4845-9752-b27f7fdbe192.jpg" />
+    <Content Include="Upload\ImageGallery\9f7796f5-3f5a-43fb-a3d9-796160f5bfa6.jpg" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
